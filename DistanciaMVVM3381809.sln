@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanciaMVVM3381809", "DistanciaMVVM3381809\DistanciaMVVM3381809.csproj", "{877D07D9-49A4-425A-A573-181E7B22021B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{877D07D9-49A4-425A-A573-181E7B22021B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877D07D9-49A4-425A-A573-181E7B22021B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877D07D9-49A4-425A-A573-181E7B22021B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{877D07D9-49A4-425A-A573-181E7B22021B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877D07D9-49A4-425A-A573-181E7B22021B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{877D07D9-49A4-425A-A573-181E7B22021B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDBBF24F-FB5A-4F62-84AD-B0D943EFCED6}
+	EndGlobalSection
+EndGlobal

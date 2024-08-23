@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:viewmodels="clr-namespace:DistanciaMVVM3381809.ViewModels"
+             x:Class="DistanciaMVVM3381809.MainPage">
+
+    <ContentPage.BindingContext>
+        <viewmodels:DistaciaViewModel />
+    </ContentPage.BindingContext>
+
+
+    <StackLayout Padding="20">
+        <Label Text="Coordenadas del Punto 1" FontSize="20" />
+        <Entry Placeholder="Ingrese X1" Text="{Binding X1}" Keyboard="Numeric" />
+        <Entry Placeholder="Ingrese Y1" Text="{Binding Y1}" Keyboard="Numeric" />
+
+        <Label Text="Coordenadas del Punto 2" FontSize="20" />
+        <Entry Placeholder="Ingrese X2" Text="{Binding X2}" Keyboard="Numeric" />
+        <Entry Placeholder="Ingrese Y2" Text="{Binding Y2}" Keyboard="Numeric" />
+
+        <Label Text="Distancia:" FontSize="20" />
+        <Label FontSize="20" Text="{Binding Distancia}" />
+
+    </StackLayout>
+    
+</ContentPage>
